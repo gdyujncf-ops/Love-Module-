@@ -5,11 +5,11 @@
 #              Исправлена проблема совместимости с разными версиями Telethon:
 #              если client.send_message не принимает entities, используется
 #              низкоуровневый вызов functions.messages.SendMessageRequest.
-# Author: adapted-from-user-example
+# Author: NFTkarma
 # ---------------------------------------------------------------------------------
 # meta developer: @NFTkarma
-# scope: LoveCustomSendFix
-# scope: LoveCustomSendFix 0.0.1
+# scope: Love
+# scope: Love 
 # ---------------------------------------------------------------------------------
 
 import logging
@@ -29,7 +29,7 @@ class LoveCustomSendFix(loader.Module):
     """
 
     strings = {
-        "name": "LoveCustomSendFix",
+        "name": "Love 0.1",
         "usage": "Использование:\n.люблю\n.люблю 😍\n.люблю id:<custom_id>\n.setcustom 1234567890123456789\n.cleancustom",
         "sent": "Отправлено: {}",
         "no_emoji": "Эмодзи не задан. Используйте .setcustom или передайте эмодзи в команде.",
